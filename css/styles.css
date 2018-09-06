@@ -1,0 +1,29 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+/* base style */
+body{
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li a{
+    color: rgb(75, 75, 75);
+}
+
+img{
+    max-width: 100%;
+}
+
+/* layout styles */
+.wrap{
+    margin: 0 1em;
+}
