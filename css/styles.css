@@ -28,6 +28,7 @@ ul{
 
 ul li a{
     color: rgb(75, 75, 75);
+    display: block;
 }
 
 img{
