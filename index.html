@@ -6,6 +6,7 @@
     <title>Responsive Portfolio</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/picturefill.min.js" async></script>
   </head>
   <body>
       <div class="wrap">
@@ -13,8 +14,8 @@
             <h1 class="name">Said Oudouane</h1>
             <ul class="nav">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Porfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </header>
         <main class="container">
@@ -23,7 +24,7 @@
                 <p class="intro">Hi! i'm a front-end developer who loves responsive design and css. i recently finished a degree in front-end web development at Treehouse and am excited to put my skills to use</p>
             </div>
             <div class="content">
-                <p class="content-intro">Portfolio</p>
+                <p class="content-intro" id="portfolio">Portfolio</p>
                 <div class="row">
                     <div class="card">
                         <img class="card-img" src="images/portfolio-1.png" alt="image portfolio-1">
@@ -60,7 +61,7 @@
         </main>
     </div>
     <footer class="main-footer">
-        <p class="footer-intro">Contact</p>
+        <p class="footer-intro" id="contact">Contact</p>
         <p class="footer-description">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
         <p class="phone">Phone <span class="info">+1 (111)555-1234</span></p>
         <p class="email">Email <span class="info">epical@epical.me</span></p>
