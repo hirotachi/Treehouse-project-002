@@ -11,6 +11,7 @@ body{
     text-align: center;
     background-color: rgb(250, 250, 250);
     line-height: 1.5;
+    height: 100vh;
 }
 
 a{
@@ -47,7 +48,7 @@ p{
     margin-bottom: 50px;
 }
 .name{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .nav li{
@@ -72,6 +73,7 @@ p{
 
 .banner {
     margin: 80px 40px;
+    font-size: 1.3em;
 }
 .intro {
     margin-top: 20px;
@@ -170,4 +172,33 @@ p{
         display: block;
     }
 
+}
+
+@media (min-width: 1024px){
+    .wrap {
+        max-width: 1200px;
+        max-height: 100vh;
+        margin: 0 auto;
+    }
+
+    .main-nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .name {
+        margin-right: auto;
+        margin-top: .4em;
+        margin-left: 4em;
+    }
+
+    .intro{
+        text-align: left;
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    .card {
+        flex-basis: 360px;
+    }
 }
